@@ -1,0 +1,464 @@
+@media (max-width: 1368px){
+    .wrapper{
+        margin: 0 5vmin;
+    }
+}
+
+@media(min-width: 1135px) and (max-width: 1368px){
+
+    .newsletter__block__main{
+        width: none;
+        z-index: 10;
+    }
+
+    .newsletter__block__main > h1{
+        font-size: 29px;
+    }
+
+    .intro__register > h1{
+        padding-top: 180px;
+    }
+
+    .intro > img {
+        position: absolute;
+        z-index: -10;
+        width: 100%;
+        top: 14%;
+        right: 0;
+    }
+
+    .intro__block__info__extra > h1{
+        font-size: 80px;
+    }
+
+    .intro__block__info > p{
+        font-size: 14px;
+    }
+
+    .promo__block__des{
+        z-index: 10;
+    }
+
+    .promo__block > img {
+        margin-left: -12vmin;
+    }
+
+}
+
+@media(min-width: 1050px) and (max-width: 1135px){
+    
+    .intro__block__info{
+        margin-bottom: 75px;
+    }
+
+    .intro__register > h1{
+        padding-top: 60px;
+    }
+
+    .newsletter__block__main > h1{
+        font-size: 26px;
+    }
+
+    .mountain__biking__des__block__subtext{
+        font-size: 15.5px;
+    }
+
+    .header__block__award__second__sub {
+        line-height: 22px;
+    }
+}
+
+@media(min-width: 900px) and (max-width: 1050px){
+
+    .header__block__nav > ul {
+        gap: 26px;
+    }
+
+    .newsletter__block > img {
+        left: -20%;
+    }
+
+    .award__block__award__second {
+        margin-bottom: 46px;
+    }
+
+    .intro__block__info {
+    margin-bottom: 55px;
+    }
+
+    .intro__register > h1 {
+        padding-top: 120px;
+        margin-bottom: 53px;
+    }
+
+    .intro__register__form > p {
+        font-size: 8px;
+    }
+
+    .intro__register > h1 {
+        font-size: 34px;
+    }
+
+    .newsletter__block__main > h1 {
+        font-size: 22px;
+    }
+
+    .newsletter__block__main > p {
+        font-size: 11px;
+    }
+
+    .mountain__biking__des__block__subtext > div {
+        font-size: 13px;
+        color: var(--white);
+    }
+
+    .footer__block__event__name > h1 {
+        font-size: 46pt;
+    }
+
+    .footer__newsletter > p {
+        font-size: 10px;
+    }
+}
+
+
+@media(min-width: 700px) and (max-width: 900px){
+
+    .intro__block {
+        padding-top: 56px;
+    }
+
+    .intro__block__info > h1{
+        font-size: 70px;
+        text-align: center;
+    }
+    
+    .intro__block__info__extra > h1{
+        text-align: center;
+    }
+
+    .intro > img {
+        top: 19.5%;
+    }
+
+    .intro__register > h1{
+        padding-top: 200px;
+        text-align: center;
+        white-space: normal;
+    }
+
+    .intro__register__form {
+        width: 80%;
+    }
+
+    .intro__register__form > p{
+        text-align: center;
+        font-size: 18px;
+        white-space: normal;
+    }
+
+    .intro__register{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter__block{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+
+    .newsletter__block > img {
+        z-index: -10;
+        opacity: 0.6;
+        width: 100%;
+    }
+
+    .newsletter__block__main > h1{
+        text-align: center;
+        white-space: normal;
+        font-weight: 600;
+    }
+
+    .newsletter__block__main{
+        position: static;
+    }
+
+    .newsletter__form{
+        margin: 0 auto;
+    }
+
+    .newsletter__block__main > p {
+        text-align: center;
+        white-space: normal;
+        width: 100%;
+    }
+
+    .mountain__biking__des__block__text{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .mountain__biking__des__block__ahead > img {
+        width: 600px;
+        bottom: -65%;
+        right: -60%;
+        transform: translate(-25%, 0%);
+    }
+    
+    .mountain__biking__des__block__subtext > div {
+        font-size: 16px;
+    }
+
+    .promo__block > img {
+        margin-left: -30vmin;
+    }
+
+    .footer__newsletter__form{
+        display: none;
+    }
+    
+}
+
+@media(min-width: 320px) and (max-width: 700px){
+    
+
+    .wrapper{
+        overflow: hidden;
+    }
+
+    .advertisment__block__text {
+        font-size: 54px;
+        color: var(--dark-orange);
+    }
+
+    .award__block > p {
+        white-space: normal;        
+    }
+
+    .header__block__ahead > h1 {
+        font-size: 52pt;
+    }
+
+    .header__block__menu{
+        padding: 5vmin 0;
+    }
+
+    .intro__block__info__extra > h1{
+        font-size: 65px;
+        text-align: center;
+    }
+
+    .intro > img {
+        top: 22.5%;
+    }
+
+    .intro__block__info > p{
+        font-size: 12px;
+    }
+
+    .intro__register > h1{
+        padding-top: 180px;
+        text-align: center;
+    }
+
+    .intro__register__form{
+        width: 100%;
+    }
+
+    .intro__register__form > p{
+        white-space: normal;
+        font-size: 10px;
+    }
+
+    .newsletter__block__main{
+        position: relative;
+        width: 100%;
+    }
+
+    .newsletter__form{
+        width: 100%;
+    }
+
+    .newsletter__block__main > h1{
+        text-align: center;
+        white-space: normal;
+        font-weight: 600;
+    }
+
+    .newsletter__block__main > p{
+        white-space: normal;
+        text-align: center;
+    }
+
+    .newsletter__block > img {
+        position: absolute;
+        top: 30%;
+        right: -85%;
+        z-index: -10;
+        opacity: 0.6;
+    }
+
+    .mountain__biking__des__block__text{
+        display: flex;
+        flex-direction: column;
+        white-space: normal;
+    }
+
+    .mountain__biking__des__block__ahead > h1{
+        font-size: 70px;
+    }
+
+    .mountain__biking__des__block__ahead > img {
+        bottom: -129%;
+        right: -75%;
+    }
+
+    .mountain__biking__des__block__subtext > div{
+        white-space: normal;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .mountain__biking__des__block__subtext > div > br{
+        display: none;
+    }
+
+    .mountain__biking__des__block__text {
+        gap: 40px;
+    }
+
+    .winner{
+        padding-top: 0;
+    }
+
+    .winner__block__main {
+        margin-top: 240px;
+    }
+
+    .winner__block__main__ahead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .winner__block > img {
+        width: 90%;
+        bottom: 70%;
+    }
+
+    .winner__block__one{
+        font-size: 70px;
+        line-height: 65px;
+        margin-bottom: 10vmin;
+    }
+
+    .footer__block{
+        display: block;
+    }
+
+    .footer__block__menu, .footer__newsletter__form{
+        display: none;
+    }
+
+    .footer__newsletter > p{
+        display: none;
+    }
+ 
+    .footer__block__event__name > h1 {
+        font-size: 52pt;
+    }
+
+    .promo__block__des > h3{
+        font-size: 20px;
+    }
+
+    .promo__block__des > h1{
+        font-size: 65px;
+    }
+
+    .promo__block__des {
+        padding-bottom: 12vmin;
+    }
+
+    .promo__block > img {
+        width: 40%;
+        margin-left: 3vmin;
+    }
+    
+}
+
+@media(min-width: 400px) and (max-width: 500px){
+    .winner__block > img{
+        bottom: 55%;
+    }
+
+    .newsletter__block > img {
+        right: -60%;
+    }
+
+}
+
+@media(min-width: 320px) and (max-width: 504px){
+    .winner__block__main > button{
+        padding: 10px 0;
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
+@media(min-width: 500px) and (max-width: 700px){
+    .winner__block > img{
+        bottom: 10%;
+    }
+
+    .newsletter__block > img {
+        right: -40%;
+    }
+}
+
+
+@media(min-width: 320px) and (max-width: 900px){
+    .header__block__nav{
+        display: none;
+    }
+
+    .burger__menu__wrapper{
+        display: block;
+    }
+
+    .header__block__burger__menu{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        z-index: 20;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgb(173, 126, 86, 0.2);
+        backdrop-filter: blur(10px);
+        transition: 0.5s;
+    }
+
+    .header__block__burger__menu > ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15vmin;
+    }
+
+    .header__block__burger__menu > ul > li > a{
+        color: var(--white);
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+}
