@@ -22,7 +22,7 @@
 
 body{
     min-height: 100vh;
-    background: url(../src/Texture.png);
+    background: url(src/Texture.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
