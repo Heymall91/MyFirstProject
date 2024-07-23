@@ -232,7 +232,7 @@
     }
 
     .advertisment__block__text {
-        font-size: 54px;
+        font-size: 50px;
         color: var(--dark-orange);
     }
 
@@ -241,7 +241,7 @@
     }
 
     .header__block__ahead > h1 {
-        font-size: 52pt;
+        font-size: 50pt;
     }
 
     .header__block__menu{
@@ -310,7 +310,7 @@
     }
 
     .mountain__biking__des__block__ahead > h1{
-        font-size: 70px;
+        font-size: 50px;
     }
 
     .mountain__biking__des__block__ahead > img {
@@ -370,7 +370,7 @@
     }
  
     .footer__block__event__name > h1 {
-        font-size: 52pt;
+        font-size: 50pt;
     }
 
     .promo__block__des > h3{
@@ -378,7 +378,7 @@
     }
 
     .promo__block__des > h1{
-        font-size: 65px;
+        font-size: 60px;
     }
 
     .promo__block__des {
