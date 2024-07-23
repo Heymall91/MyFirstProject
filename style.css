@@ -51,7 +51,7 @@ body{
     font-weight: 900;
     letter-spacing: 0px;
     line-height: 58px;
-    background: url(../src/TextureOrange.png);
+    background: url(src/TextureOrange.png);
     background-position: center;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -289,7 +289,7 @@ a[href="#register"] > .header__block__btn:hover{
     right: 0;
 }
 
-img[src="../src/Grid.png"]{
+img[src="src/Grid.png"]{
     position: absolute;
     width: 100%;
     top: 55vmin;
@@ -419,7 +419,7 @@ img[src="../src/Grid.png"]{
 }
 
 .award__block__award__second{
-    background-image: url(../src/TextureOrange.png);
+    background-image: url(src/TextureOrange.png);
     background-position: center;
     height: 205px;
     width: 300px;
@@ -510,7 +510,7 @@ img[src="../src/Grid.png"]{
 }
 
 .newsletter__form > button{
-    background-image: url(../src/TextureOrange.png);
+    background-image: url(src/TextureOrange.png);
     background-position: center;
     padding: 10px 0;
     font-weight: 600;
@@ -647,7 +647,7 @@ img[src="../src/Grid.png"]{
 }
 
 .advertisment__block__award__second{
-    background-image: url(../src/TextureOrange.png);
+    background-image: url(src/TextureOrange.png);
     background-position: center;
     display: flex;
     justify-content: center;
@@ -772,7 +772,7 @@ img[src="../src/Grid.png"]{
 .promo__block__des > h1{
     font-size: 95px;
     font-weight: 900;
-    background: url(../src/TextureOrange.png);
+    background: url(src/TextureOrange.png);
     background-position: center;
     background-size: 60%;
     background-position-x: 5px;
